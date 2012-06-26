@@ -12,10 +12,19 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    startsubwindow.cpp
+    startsubwindow.cpp \
+    setupsubwindow.cpp \
+    scoresubwindow.cpp \
+    helpsubwindow.cpp
 
 HEADERS  += mainwindow.h \
-    startsubwindow.h
+    startsubwindow.h \
+    setupsubwindow.h \
+    scoresubwindow.h \
+    helpsubwindow.h
 
 FORMS    += mainwindow.ui \
-    startsubwindow.ui
+    startsubwindow.ui \
+    setupsubwindow.ui \
+    scoresubwindow.ui \
+    helpsubwindow.ui

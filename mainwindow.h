@@ -17,6 +17,9 @@ public:
     
 private slots:
     void openStartSubWindow();
+    void openSetupSubWindow();
+    void openScoreSubWindow();
+    void openHelpSubWindow();
 
 private:
     Ui::MainWindow *ui;

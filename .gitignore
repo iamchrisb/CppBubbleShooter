@@ -1,0 +1,8 @@
+BubbleShooter.pro.user
+debug
+release
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.Bubbleshooter.Debug
+object_script.BubbleShooter.Release
