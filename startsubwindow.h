@@ -2,6 +2,11 @@
 #define STARTSUBWINDOW_H
 
 #include <QDialog>
+#include <QtCore>
+#include <QtGui>
+
+#include "customellipse.h"
+#include "bubblecontainer.h"
 
 namespace Ui {
 class StartSubWindow;
@@ -17,6 +22,14 @@ public:
     
 private:
     Ui::StartSubWindow *ui;
+
+    QGraphicsScene * scene;
+    QGraphicsEllipseItem * ellipse;
+    QGraphicsRectItem * rectangle;
+
+    CustomEllipse * customItem;
+    CustomEllipse * customItem2;
+    BubbleContainer * bubbles;
 };
 
 #endif // STARTSUBWINDOW_H

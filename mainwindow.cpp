@@ -23,7 +23,7 @@ MainWindow::~MainWindow()
 void MainWindow::openStartSubWindow()
 {
     qDebug("\n noooooooooooow \n");
-    this->hide();
+    //this->hide();
     StartSubWindow ssw;
     ssw.setModal(true);
     ssw.exec();

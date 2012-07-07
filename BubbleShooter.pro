@@ -15,13 +15,17 @@ SOURCES += main.cpp\
     startsubwindow.cpp \
     setupsubwindow.cpp \
     scoresubwindow.cpp \
-    helpsubwindow.cpp
+    helpsubwindow.cpp \
+    customellipse.cpp \
+    bubblecontainer.cpp
 
 HEADERS  += mainwindow.h \
     startsubwindow.h \
     setupsubwindow.h \
     scoresubwindow.h \
-    helpsubwindow.h
+    helpsubwindow.h \
+    customellipse.h \
+    bubblecontainer.h
 
 FORMS    += mainwindow.ui \
     startsubwindow.ui \
